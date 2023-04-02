@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "impersonate-gpt"
+name = "impersonate_gpt"
 version = "0.1.0"
 description = "Repo for training a chatbot that impersonates a friend with his personality. Side-project for learning."
 authors = ["itor <itortouch@gmail.com>"]

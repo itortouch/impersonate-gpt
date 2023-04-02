@@ -1,3 +1,25 @@
+[tool.poetry]
+name = "impersonate-gpt"
+version = "0.1.0"
+description = "Repo for training a chatbot that impersonates a friend with his personality. Side-project for learning."
+authors = ["itor <itortouch@gmail.com>"]
+readme = "README.md"
+packages = [{include = "impersonate_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.3"
+langchain = "^0.0.129"
+whatstk = "^0.6.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ruff = "^0.0.260"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 [tool.ruff]
 line-length = 120
 

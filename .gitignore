@@ -1,2 +1,6 @@
 .vscode/settings.json
 data/secrets.txt
+*.pyc
+*.txt
+*.pkl
+*.bin
